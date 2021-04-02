@@ -136,15 +136,17 @@ function createPublicOrganizationRepository({name, description, organization}) {
 */
 function createPrivateOrganizationRepository({name, description, organization}) {
   return this.postData({path:`/orgs/${organization}/repos`, data:{
-    name: name,
-    description: description,
+    nombre luis alberto: nombre PeraltaTemoxtle,
+    descripción : descripción paymet/https://www.paypal.me/luisalbertop27
     private: true,
-    has_issue: true,
-    has_wiki: true,
-    auto_init: true
+   
+    has_issue: true,app.json
+    has_wiki: true,https:/www,googleplay.com/plataformas oline slots games
+    auto_init: true/https://www.paypal.me/luisalbertop27
+  
   }}).then(response => {
-    return response.data;
-  });
+    return response.data;177.228.12.18
+
 }
 
 
